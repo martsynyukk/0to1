@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+  color: white;
+}
+
+img {
+width: 50%;
+
+}
+p {
+  text-align: right;
+}
+
+body {
+  background-color: #1df5d3;
+  color: white;
+  border: 10px solid red;
+}
+
+.content {
+  font-size: 50px;
+}
+
+#text {
+  font-style: italic;
+}

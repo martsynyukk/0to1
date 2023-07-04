@@ -1,0 +1,80 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.wrapper {
+  background-image: url(../images/background.jpg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+
+.header {
+  padding-top: 46px; 
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 240px;
+}
+
+.logo {
+  margin-right: 34px;
+}
+
+.menu ul {
+ display: flex;
+}
+
+.menu li + li {
+  margin-left: 25px;
+}
+
+.menu a {
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+.title {
+  font-size: 120px;
+  line-height: 141px;
+  margin-bottom: 15px;
+}
+
+.text {
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 46px;
+  margin-left: 10px;
+  width: 674px;
+}
+
+.slick-dots {
+  list-style: none;
+  display: flex;
+}
+
+.slick-dots button {
+  font-size: 0;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 20px;
+  border: none;
+  
+}
